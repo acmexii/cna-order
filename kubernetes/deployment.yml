@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: username/order:latest
+          image: 283210891307.dkr.ecr.ap-northeast-2.amazonaws.com/jenkins:${BUILD_NUMBER}
           ports:
             - containerPort: 8080
           readinessProbe:
